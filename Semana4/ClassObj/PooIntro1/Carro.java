@@ -1,4 +1,4 @@
-package br.com.devsdoagi.Semana4.PooIntro1;
+package br.com.devsdoagi.Semana4.ClassObj.PooIntro1;
 
 public class Carro {
     public String marca;
