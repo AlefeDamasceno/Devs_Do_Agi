@@ -20,4 +20,10 @@ public class Gerente extends Funcionario{
     public double getSalarioFinal(){
         return getSalario() + getBonus();
     }
+
+    public void exibirRelatorio(){
+        System.out.println("=== RELATÓRIO GERENTE ===");
+        System.out.printf("Nome: %s\nSalário: R$ %.2f\nBônus: R$ %.2f\nSalário Final: R$ %.2f\n", getNome(),
+                getSalario(), getBonus(), getSalarioFinal());
+    }
 }
