@@ -9,12 +9,15 @@ public class Main {
         gerente.setNome("Alefe Gomes");
         gerente.setSalario(2500);
 
+        //Exibir Relatório
         gerente.exibirRelatorio();
 
         //Criando objeto analista com parâmetro
         Analista analista = new Analista("Ana luiza", 3200);
 
         //Não precisa atribuir valor novamente..
+
+        //Exibir Relatório
         analista.exibirRelatorio();
     }
 }
